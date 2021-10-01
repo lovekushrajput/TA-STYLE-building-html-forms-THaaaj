@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+body{
+    background: url(../bg-intro-desktop.png);
+    background-color: rgb(255,121,120);
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.margin{ margin: 100px 0;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: rgb(255,241,234);
+    padding: 20px 0;
+}
+.col{
+    width: 50%;
+    height: 65vh;
+    margin-top: 250px;
+}
+button{
+    border-radius: 4px;
+    border: 0;
+    width: 100%;
+    background-color: rgb(93,84,163);
+    padding: 13px 0;
+    box-shadow: 0px  7px 3px rgba(0,0,0,0.6) ;
+    color: rgb(255,241,234);
+    font-size: 13px;
+    font-weight: 500;
+}
+aside{
+    width: 40%;
+}
+small{
+    font-weight: 600;
+    color: white;
+}
+input{
+    font-size: 13px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+     padding: 10px 0px;
+     padding-left: 5px;
+    width: 100%;
+}
+.username{
+    border: 1px solid rgb(125,121,147);
+    color: rgb(125,121,147);
+}
+.bar{
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: white;
+
+}
+form button{
+    width: 100%;
+    padding: 10px 0px;
+    margin-left: 5px;
+    background-color: rgb(55,204,138);
+}
+strong{
+    color: red;
+}
+form p{
+    width: 100%;
+    margin-left: 10px;
+    color: grey;
+    font-size: 11.3px;
+}
